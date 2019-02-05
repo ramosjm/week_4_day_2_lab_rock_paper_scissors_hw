@@ -21,7 +21,7 @@ class Game
     elsif @hand_1 == 'paper' && @hand_2 == 'scizzors'
       result = 'scizzors wins!'
     end
-    return p result
+    return result
   end
 
 

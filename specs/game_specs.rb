@@ -14,9 +14,6 @@ class GameTest < MiniTest::Test
     @game_4 = Game.new(@hand_3,@hand_2) #scizzors win
     @game_5 = Game.new(@hand_1,@hand_3) #rock wins
     @game_6 = Game.new(@hand_3,@hand_1) #rock wins
-    @game_7 = Game.new(@hand_3,@hand_2)
-    @game_8 = Game.new(@hand_3,@hand_2)
-
 
   end
 
@@ -40,7 +37,9 @@ class GameTest < MiniTest::Test
     assert_equal('rock wins!',@game_5.check_hands())
   end
 
-
+  def test_check_hands__scizzors_vs_rock
+    assert_equal('rock wins!',@game_6.check_hands())
+  end
 
 
 end
