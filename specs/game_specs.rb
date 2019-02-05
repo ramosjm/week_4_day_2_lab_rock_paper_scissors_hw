@@ -38,7 +38,7 @@ class GameTest < MiniTest::Test
   end
 
   def test_check_hands__scizzors_vs_rock
-    assert_equal('rock!',@game_6.check_hands())
+    assert_equal('Player 2 wins with Rock!',@game_6.check_hands())
   end
 
 
