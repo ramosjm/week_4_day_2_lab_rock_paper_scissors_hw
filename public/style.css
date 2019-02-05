@@ -8,9 +8,16 @@ body{
   padding: 0px;
 }
 
-p, ol{
+p{
   font-family: Georgia, serif;
   color: white;
+}
+
+ul{
+  font-family: Georgia, serif;
+  color: white;
+  display: inline;
+  text-shadow: 3px 3px 3px red
 }
 
 h1{
@@ -19,7 +26,7 @@ h1{
   font-family: Georgia, serif;
   font-weight: bold;
   color: white;
-  text-shadow: 3px 3px 3px black
+  text-shadow: 3px 3px 3px red
 
 }
 
@@ -47,7 +54,7 @@ margin: 0px;
 li{
   text-align: left;
   padding-right: 20px;
-  text-shadow: black;
+  text-shadow: 3px 3px 3px black;
   margin: 0px;
 }
 
