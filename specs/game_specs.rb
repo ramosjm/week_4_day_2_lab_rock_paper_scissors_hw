@@ -18,27 +18,27 @@ class GameTest < MiniTest::Test
   end
 
   def test_check_hands__rock_vs_paper
-    assert_equal('paper wins!',@game_1.check_hands())
+    assert_equal('paper!',@game_1.check_hands())
   end
 
   def test_check_hands__paper_vs_scizzors
-    assert_equal('scizzors wins!',@game_2.check_hands())
+    assert_equal('scizzors!',@game_2.check_hands())
   end
 
   def test_check_hands__paper_vs_rock
-    assert_equal('paper wins!',@game_3.check_hands())
+    assert_equal('paper!',@game_3.check_hands())
   end
 
   def test_check_hands__scizzors_vs_paper
-    assert_equal('scizzors wins!',@game_4.check_hands())
+    assert_equal('scizzors!',@game_4.check_hands())
   end
 
   def test_check_hands__rock_vs_scizzors
-    assert_equal('rock wins!',@game_5.check_hands())
+    assert_equal('rock!',@game_5.check_hands())
   end
 
   def test_check_hands__scizzors_vs_rock
-    assert_equal('rock wins!',@game_6.check_hands())
+    assert_equal('rock!',@game_6.check_hands())
   end
 
 
