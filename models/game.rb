@@ -19,7 +19,7 @@ class Game
     elsif @hand_1 == 'scizzors' && @hand_2 == 'paper'
       result = 'Player 1 wins with Scizzors!'
     elsif @hand_1 == 'paper' && @hand_2 == 'scizzors'
-      result = 'Player 2 wins wiht Scizzors!'
+      result = 'Player 2 wins with Scizzors!'
     end
     return result
   end
