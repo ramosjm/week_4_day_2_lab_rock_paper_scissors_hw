@@ -7,7 +7,7 @@ class Game
   end
 
   def check_hands()
-    return 'Draw' if @hand_1 == @hand_2
+    result = 'Draw' if @hand_1 == @hand_2
     if @hand_1 == 'rock' && @hand_2 == 'paper'
       result = 'paper!'
     elsif @hand_1 == 'paper' && @hand_2 == 'rock'
@@ -15,7 +15,7 @@ class Game
     elsif @hand_1 == 'rock' && @hand_2 == 'scizzors'
       result = 'rock!'
     elsif @hand_1 == 'scizzors' && @hand_2 == 'rock'
-      result =  'rock!'
+      result = 'rock!'
     elsif @hand_1 == 'scizzors' && @hand_2 == 'paper'
       result = 'scizzors!'
     elsif @hand_1 == 'paper' && @hand_2 == 'scizzors'
