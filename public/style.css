@@ -3,4 +3,32 @@ body{
   background-image: url("./rock-paper-scissor-ft.jpg");
   background-size: cover;
   background-position: center;
+  height: 720px;
+  widh: 100%
+}
+
+h1{
+  width: 100%;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: white;
+}
+.main_header{
+  text-align: center;
+  width: 100%;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: white;
+}
+
+nav{
+  font-size: 20pt;
+}
+ul{
+margin: 1px;
+}
+li{
+  text-align: left;
+  display: inline;
+  padding-right: 20px;
 }
