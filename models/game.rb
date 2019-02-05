@@ -24,5 +24,4 @@ class Game
     return result
   end
 
-
 end
