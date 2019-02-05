@@ -12,14 +12,14 @@ class Game
       result = 'Player 2 wins with Paper!'
     elsif @hand_1 == 'paper' && @hand_2 == 'rock'
       result = 'Player 1 wins with Paper!'
-    elsif @hand_1 == 'rock' && @hand_2 == 'scizzors'
+    elsif @hand_1 == 'rock' && @hand_2 == 'scissors'
       result = 'Player 1 wins with Rock!'
-    elsif @hand_1 == 'scizzors' && @hand_2 == 'rock'
+    elsif @hand_1 == 'scissors' && @hand_2 == 'rock'
       result = 'Player 2 wins with Rock!'
-    elsif @hand_1 == 'scizzors' && @hand_2 == 'paper'
-      result = 'Player 1 wins with Scizzors!'
-    elsif @hand_1 == 'paper' && @hand_2 == 'scizzors'
-      result = 'Player 2 wins with Scizzors!'
+    elsif @hand_1 == 'scissors' && @hand_2 == 'paper'
+      result = 'Player 1 wins with Scissors!'
+    elsif @hand_1 == 'paper' && @hand_2 == 'scissors'
+      result = 'Player 2 wins with Scissors!'
     end
     return result
   end

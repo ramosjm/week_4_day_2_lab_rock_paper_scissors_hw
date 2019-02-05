@@ -1,3 +1,6 @@
 body{
   background-color: cyan;
+  background-image: url("./rock-paper-scissor-ft.jpg");
+  background-size: cover;
+  background-position: center;
 }
