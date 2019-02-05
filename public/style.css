@@ -5,6 +5,7 @@ body{
   background-position: center;
   height: 720px;
   margin: 0px;
+  padding: 0px;
 }
 
 p, ol{
@@ -18,6 +19,7 @@ h1{
   font-family: Georgia, serif;
   font-weight: bold;
   color: white;
+  text-shadow: 3px 3px 3px black
 }
 
 nav{
@@ -27,22 +29,24 @@ nav{
   background-size: cover;
   width: 100%;
   height: 20pt;
-  padding top: 20pt;
-  margin: auto;
+  margin: 0px;
 }
 nav li{
   display: inline;
+  text-shadow: 3px 3px 3px black;
 }
 nav a{
   color: red;
+
 }
 ul{
-margin: 1px;
+margin: 0px;
 }
 li{
   text-align: left;
   padding-right: 20px;
   text-shadow: black;
+  margin: 0px;
 }
 
 .main_header{
@@ -54,5 +58,5 @@ li{
   font-size: 30pt;
 }
 .rules_list li{
-text-shadow: 2px 2px 2px black;
+text-shadow: 3px 3px 3px black;
 }
