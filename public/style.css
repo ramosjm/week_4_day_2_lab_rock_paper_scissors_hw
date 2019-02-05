@@ -4,7 +4,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 720px;
-  widh: 100%
+  margin: 0px;
 }
 
 p, ol{
@@ -30,6 +30,9 @@ nav{
   padding top: 20pt;
   margin: auto;
 }
+nav li{
+  display: inline;
+}
 nav a{
   color: red;
 }
@@ -38,7 +41,6 @@ margin: 1px;
 }
 li{
   text-align: left;
-  display: inline;
   padding-right: 20px;
   text-shadow: black;
 }
@@ -49,8 +51,8 @@ li{
   font-family: Georgia, serif;
   font-weight: bold;
   color: white;
+  font-size: 30pt;
 }
 .rules_list li{
-  display: block;
-
+text-shadow: 2px 2px 2px black;
 }
